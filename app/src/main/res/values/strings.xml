@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="btn_meal">主餐</string>
+    <string name="btn_drink">飲料</string>
+    <string name="btn_reorder">重新點餐</string>
+    <string name="ed_tableNo">桌號</string>
+    <string name="tv_meal">主餐 :</string>
+    <string name="tv_drink">飲料 :</string>
 </resources>
