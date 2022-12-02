@@ -6,49 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <Button
-        android:id="@+id/btn_meal"
-        style="@style/Widget.AppCompat.Button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_meal"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="270dp" />
-
-    <Button
-        android:id="@+id/btn_drink"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_drink"
-        tools:layout_editor_absoluteX="245dp"
-        tools:layout_editor_absoluteY="270dp" />
-
-    <Button
-        android:id="@+id/btn_reOrder"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/btn_reorder"
-        tools:layout_editor_absoluteX="151dp"
-        tools:layout_editor_absoluteY="611dp" />
-
-    <TextView
-        android:id="@+id/tv_meal"
-        android:layout_width="63dp"
-        android:layout_height="34dp"
-        android:text="@string/tv_meal"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="407dp" />
-
-    <TextView
-        android:id="@+id/tv_drink"
-        android:layout_width="63dp"
-        android:layout_height="34dp"
-        android:text="@string/tv_drink"
-        android:textSize="20sp"
-        tools:layout_editor_absoluteX="63dp"
-        tools:layout_editor_absoluteY="462dp" />
-
     <EditText
         android:id="@+id/ed_tableNo"
         android:layout_width="wrap_content"
@@ -58,5 +15,80 @@
         android:text="@string/ed_tableNo"
         tools:layout_editor_absoluteX="100dp"
         tools:layout_editor_absoluteY="149dp" />
+
+    <TextView
+        android:id="@+id/tv_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_text"
+        tools:layout_editor_absoluteY="136dp" />
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="57dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ed_tableNo">
+
+        <Button
+            android:id="@+id/btn_meal"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="90dp"
+            android:text="@string/btn_meal" />
+
+        <Button
+            android:id="@+id/btn_drink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="@string/btn_drink" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_reOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_reorder"
+        tools:layout_editor_absoluteX="151dp"
+        tools:layout_editor_absoluteY="611dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_meal"
+            android:layout_width="63dp"
+            android:layout_height="34dp"
+            android:text="@string/tv_meal"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_drink"
+            android:layout_width="63dp"
+            android:layout_height="34dp"
+            android:text="@string/tv_drink"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_sweet"
+            android:layout_width="63dp"
+            android:layout_height="34dp"
+            android:text="@string/tv_sweet"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_ice"
+            android:layout_width="63dp"
+            android:layout_height="34dp"
+            android:text="@string/tv_ice"
+            android:textSize="20sp" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

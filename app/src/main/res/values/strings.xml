@@ -1,9 +1,12 @@
 <resources>
-    <string name="app_name">My Application</string>
+    <string name="app_name">Excercise6_點餐App</string>
     <string name="btn_meal">主餐</string>
     <string name="btn_drink">飲料</string>
     <string name="btn_reorder">重新點餐</string>
-    <string name="ed_tableNo">桌號</string>
+    <string name="ed_tableNo">桌號 :</string>
     <string name="tv_meal">主餐 :</string>
     <string name="tv_drink">飲料 :</string>
+    <string name="tv_sweet">甜度 :</string>
+    <string name="tv_ice">冰塊 :</string>
+    <string name="tv_text">~~您的餐點~~</string>
 </resources>
