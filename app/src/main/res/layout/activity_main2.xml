@@ -25,23 +25,23 @@
         android:id="@+id/checkBox"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckedTextView" />
+        android:text="@string/che_meal1" />
 
     <CheckedTextView
         android:id="@+id/checkBox2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckedTextView" />
+        android:text="@string/che_meal2" />
 
     <CheckedTextView
         android:id="@+id/checkBox3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckedTextView" />
+        android:text="@string/che_meal3" />
 
     <CheckedTextView
         android:id="@+id/checkBox4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="CheckedTextView" />
+        android:text="@string/che_meal4" />
 </androidx.constraintlayout.widget.ConstraintLayout>
