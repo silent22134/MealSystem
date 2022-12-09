@@ -13,6 +13,7 @@
     <string name="btn_reorder">重新點餐</string>
 
     <string name="tv_text3">主餐選單</string>
+    <string name="tv_tableNo2">無</string>
     <string name="tv_table2">桌號 :</string>
     <string name="che_meal1">A餐</string>
     <string name="che_meal2">B餐</string>
