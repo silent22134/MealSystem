@@ -13,14 +13,14 @@
     <string name="btn_reorder">重新點餐</string>
 
     <string name="tv_text3">主餐選單</string>
-    <string name="tv_table2">桌號</string>
-    <string name="che_meal1">A</string>
-    <string name="che_meal2">B</string>
-    <string name="che_meal3">C</string>
-    <string name="che_meal4">D</string>
+    <string name="tv_table2">桌號 :</string>
+    <string name="che_meal1">A餐</string>
+    <string name="che_meal2">B餐</string>
+    <string name="che_meal3">C餐</string>
+    <string name="che_meal4">D餐</string>
     <string name="btn_mealConfirm">確認送出</string>
 
-    <string name="tv_table3">桌號</string>
+    <string name="tv_table3">桌號 :</string>
     <string name="tv_text4">飲料選單</string>
     <string name="tv_text5">飲料 :</string>
     <string name="tv_text6">甜度 :</string>
