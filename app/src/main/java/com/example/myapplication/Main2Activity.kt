@@ -1,5 +1,7 @@
 package com.example.myapplication
 
+import android.app.Activity
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -31,6 +33,11 @@ class Main2Activity : AppCompatActivity() {
             var meal4 =if (mealA.isChecked)"D餐" else ""
             val meal = "$meal1 $meal2 $meal3 $meal4"
 
+            val intent = Intent()
+
+            setResult(Activity.RESULT_OK,intent)
+
+            finish()
         }
 
     }
