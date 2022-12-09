@@ -6,4 +6,15 @@
     android:layout_height="match_parent"
     tools:context=".Main3Activity">
 
+    <TextView
+        android:id="@+id/tv_table3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tv_table3" />
+
+    <Button
+        android:id="@+id/btn_drinkConfirm"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btn_drinkConfirm" />
 </androidx.constraintlayout.widget.ConstraintLayout>

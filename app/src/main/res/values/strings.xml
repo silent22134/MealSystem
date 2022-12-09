@@ -20,8 +20,10 @@
     <string name="che_meal4">D</string>
     <string name="btn_mealConfirm">確認送出</string>
 
+    <string name="tv_table3">桌號</string>
     <string name="tv_text4">飲料選單</string>
     <string name="tv_text5">飲料 :</string>
     <string name="tv_text6">甜度 :</string>
     <string name="tv_text7">冰塊 :</string>
+    <string name="btn_drinkConfirm">確認送出</string>
 </resources>
