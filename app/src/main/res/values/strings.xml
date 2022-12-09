@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Excercise6_點餐App</string>
+    <string name="app_name">Exercise6_點餐App</string>
     <string name="tv_text">點餐系統</string>
     <string name="btn_meal">主餐</string>
     <string name="btn_drink">飲料</string>
@@ -11,4 +11,17 @@
     <string name="tv_sweet">甜度 :</string>
     <string name="tv_ice">冰塊 :</string>
     <string name="btn_reorder">重新點餐</string>
+
+    <string name="tv_text3">主餐選單</string>
+    <string name="tv_table2">桌號</string>
+    <string name="tv_meal1">A</string>
+    <string name="tv_meal2">B</string>
+    <string name="tv_meal3">C</string>
+    <string name="tv_meal4">D</string>
+    <string name="btn_mealConfirm">確認送出</string>
+
+    <string name="tv_text4">飲料選單</string>
+    <string name="tv_text5">飲料 :</string>
+    <string name="tv_text6">甜度 :</string>
+    <string name="tv_text7">冰塊 :</string>
 </resources>

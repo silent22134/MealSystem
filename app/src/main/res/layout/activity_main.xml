@@ -8,12 +8,12 @@
 
     <TextView
         android:id="@+id/tv_text"
-        android:layout_width="194dp"
+        android:layout_width="150dp"
         android:layout_height="44dp"
-        android:layout_marginStart="116dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="50dp"
         android:text="@string/tv_text"
         android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,7 +22,7 @@
         android:layout_width="63dp"
         android:layout_height="34dp"
         android:layout_marginStart="-20dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="100dp"
         android:text="@string/tv_table"
         android:textSize="20sp"
         app:layout_constraintStart_toStartOf="@id/tv_text"
@@ -32,8 +32,7 @@
         android:id="@+id/ed_tableNo"
         android:layout_width="132dp"
         android:layout_height="50dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="90dp"
         android:ems="10"
         android:hint="@string/ed_tableNo"
         android:inputType="textPersonName"
@@ -48,6 +47,7 @@
     <LinearLayout
         android:layout_width="408dp"
         android:layout_height="57dp"
+        android:layout_marginTop="20dp"
         android:orientation="horizontal"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -70,44 +70,59 @@
 
     </LinearLayout>
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="230dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="250dp"
+        android:text="@string/tv_text2"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_text" />
+
     <Button
         android:id="@+id/btn_reOrder"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/btn_reorder"
-        tools:layout_editor_absoluteX="151dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="611dp" />
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:layout_width="300dp"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@id/btn_reOrder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
 
         <TextView
             android:id="@+id/tv_meal"
             android:layout_width="63dp"
-            android:layout_height="34dp"
+            android:layout_height="40dp"
             android:text="@string/tv_meal"
             android:textSize="20sp" />
 
         <TextView
             android:id="@+id/tv_drink"
             android:layout_width="63dp"
-            android:layout_height="34dp"
+            android:layout_height="40dp"
             android:text="@string/tv_drink"
             android:textSize="20sp" />
 
         <TextView
             android:id="@+id/tv_sweet"
             android:layout_width="63dp"
-            android:layout_height="34dp"
+            android:layout_height="40dp"
             android:text="@string/tv_sweet"
             android:textSize="20sp" />
 
         <TextView
             android:id="@+id/tv_ice"
             android:layout_width="63dp"
-            android:layout_height="34dp"
+            android:layout_height="40dp"
             android:text="@string/tv_ice"
             android:textSize="20sp" />
 

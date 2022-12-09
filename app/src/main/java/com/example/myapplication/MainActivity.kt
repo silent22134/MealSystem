@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.TextView
 import androidx.activity.result.contract.ActivityResultContract
+import androidx.activity.result.contract.ActivityResultContracts
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -20,13 +21,13 @@ class MainActivity : AppCompatActivity() {
         var tvDrink = findViewById<TextView>(R.id.tv_drink)
         var btnReorder = findViewById<Button>(R.id.btn_reOrder)
 
-        val myActivityLauncher2 = registerForActivityResult(ActivityResultContract){ result ->
+        val myActivityLauncher2 = registerForActivityResult(ActivityResultContracts){ result ->
             tvMeal.text = "主餐 : $result"
         }
 
         btnMeal.setOnClickListener{
             if(tableNo.length()<1)
-                tableNo.hint = "請輸入桌號!"
+                tableNo.hint = "請輸入桌號"
             else{
                 myActivityLauncher2.launch("$txtTableNo")
             }

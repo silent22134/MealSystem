@@ -7,16 +7,41 @@
     tools:context=".Main2Activity">
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btn_mealConfirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="158dp"
+        android:text="@string/btn_mealConfirm"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="428dp" />
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/tv_table2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="@string/tv_table2" />
+
+    <CheckedTextView
+        android:id="@+id/checkBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckedTextView" />
+
+    <CheckedTextView
+        android:id="@+id/checkBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckedTextView" />
+
+    <CheckedTextView
+        android:id="@+id/checkBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckedTextView" />
+
+    <CheckedTextView
+        android:id="@+id/checkBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CheckedTextView" />
 </androidx.constraintlayout.widget.ConstraintLayout>
