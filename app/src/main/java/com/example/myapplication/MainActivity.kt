@@ -21,8 +21,11 @@ class MainActivity : AppCompatActivity() {
         var tvDrink = findViewById<TextView>(R.id.tv_drink)
         var btnReorder = findViewById<Button>(R.id.btn_reOrder)
 
-        val myActivityLauncher2 = registerForActivityResult(ActivityResultContracts){ result ->
+        val myActivityLauncher2 = registerForActivityResult(MyActivityResultContract2()){ result ->
             tvMeal.text = "主餐 : $result"
+        }
+        val myActivityLauncher3 = registerForActivityResult(MyActivityResultContract3()){ result ->
+            tvDrink.text = "飲料 : $result"
         }
 
         btnMeal.setOnClickListener{
@@ -31,6 +34,18 @@ class MainActivity : AppCompatActivity() {
             else{
                 myActivityLauncher2.launch("$txtTableNo")
             }
+        }
+        btnDrink.setOnClickListener{
+            if (tableNo.length()<1)
+                tableNo.hint = "請輸入桌號"
+            else{
+                myActivityLauncher3.launch("$txtTableNo")
+            }
+        }
+        btnReorder.setOnClickListener{
+            val intent = intent
+            finish()
+            startActivity(intent)
         }
     }
 }

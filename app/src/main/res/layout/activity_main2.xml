@@ -44,6 +44,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="48dp"
         android:text="@string/tv_tableNo2"
+        android:textSize="20sp"
         app:layout_constraintStart_toEndOf="@id/tv_table2"
         app:layout_constraintTop_toBottomOf="@id/tv_text3" />
 
