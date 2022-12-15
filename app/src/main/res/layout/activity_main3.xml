@@ -32,9 +32,10 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView"
-        tools:layout_editor_absoluteX="204dp"
-        tools:layout_editor_absoluteY="139dp" />
+        android:text="@string/tv_tableNo3"
+        android:textSize="20sp"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="128dp" />
 
     <Button
         android:id="@+id/btn_drinkConfirm"
