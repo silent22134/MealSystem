@@ -32,13 +32,17 @@
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="TextView"
+        tools:layout_editor_absoluteX="204dp"
+        tools:layout_editor_absoluteY="139dp" />
 
     <Button
         android:id="@+id/btn_drinkConfirm"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/btn_drinkConfirm" />
+        android:text="@string/btn_drinkConfirm"
+        tools:layout_editor_absoluteX="144dp"
+        tools:layout_editor_absoluteY="568dp" />
 
     <TextView
         android:id="@+id/tv_text5"
@@ -53,22 +57,120 @@
 
     <TextView
         android:id="@+id/tv_text6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/tv_text6" />
+        android:layout_width="63dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="100dp"
+        android:text="@string/tv_text6"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_table3" />
 
     <TextView
         android:id="@+id/tv_text7"
+        android:layout_width="63dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="52dp"
+        android:layout_marginTop="176dp"
+        android:text="@string/tv_text7"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_table3" />
+
+    <RadioButton
+        android:id="@+id/radioButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/tv_text7" />
+        android:text="@string/latte"
+        tools:layout_editor_absoluteX="55dp"
+        tools:layout_editor_absoluteY="212dp" />
 
     <RadioButton
         android:id="@+id/radioButton2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="RadioButton"
-        tools:layout_editor_absoluteX="73dp"
-        tools:layout_editor_absoluteY="318dp" />
+        android:text="@string/cappuccino"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/blacktea"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/orange_juice"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="212dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/noSugar"
+        tools:layout_editor_absoluteX="52dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/normalSugar"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/halfSugar"
+        tools:layout_editor_absoluteX="113dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lessSugar"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="289dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/no_ice"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/lessIce"
+        tools:layout_editor_absoluteX="175dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/normal_ice"
+        tools:layout_editor_absoluteX="115dp"
+        tools:layout_editor_absoluteY="364dp" />
+
+    <RadioButton
+        android:id="@+id/radioButton12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hot"
+        tools:layout_editor_absoluteX="235dp"
+        tools:layout_editor_absoluteY="364dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

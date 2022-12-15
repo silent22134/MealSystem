@@ -23,8 +23,24 @@
 
     <string name="tv_table3">桌號 :</string>
     <string name="tv_text4">飲料選單</string>
+
     <string name="tv_text5">飲料 :</string>
+    <string name="latte">拿鐵</string>
+    <string name="cappuccino">卡布</string>
+    <string name="blacktea">紅茶</string>
+    <string name="orange_juice">橙汁</string>
+
     <string name="tv_text6">甜度 :</string>
+    <string name="noSugar">無糖</string>
+    <string name="lessSugar">少糖</string>
+    <string name="halfSugar">半糖</string>
+    <string name="normalSugar">全糖</string>
+
     <string name="tv_text7">冰塊 :</string>
+    <string name="hot">熱飲</string>
+    <string name="no_ice">去冰</string>
+    <string name="lessIce">少冰</string>
+    <string name="normal_ice">正常</string>
+
     <string name="btn_drinkConfirm">確認送出</string>
 </resources>

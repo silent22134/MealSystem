@@ -33,7 +33,9 @@ class Main2Activity : AppCompatActivity() {
             var meal4 =if (mealA.isChecked)"D餐" else ""
             val meal = "$meal1 $meal2 $meal3 $meal4"
 
-            val intent = Intent()
+            val intent = Intent().apply{
+                putExtra("result","$meal")
+            }
 
             setResult(Activity.RESULT_OK,intent)
 
